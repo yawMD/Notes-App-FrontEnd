@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #45a049;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    max-width: 1370px;
+    margin: 0 auto;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: fantasy, Copperplate;
+    cursor: pointer;
+}
+.out{
+    color: white;
+}
+.first a{
+    color: black;
+    text-decoration: none;
+}
+.out:hover{
+    color: #cccccc;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    width: 10%;
+    background: #45a049;
+}
+.account img{
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#archive{
+    background-color: #224d24;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.account button{
+    width: 70%;
+    background-color: #224d24;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: linear-gradient(  #224d24 , #45a049);
+}
+.account button:hover{
+    background: #224d24;
+}
+
+.req{
+    max-width: 1350px;
+    margin: 0 auto;
+    max-height: 90vh;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+    margin: 0 auto;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
